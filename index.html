@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sesus Is Jaquon</title>
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <br>
+  <h1 class="display-4">Menon</h1>
+  <p class="lead">a weaksauce encryption algorithm  by steven</p>
+  <hr>
+  <noscript>
+    <p><span class="warning"><em>enable yo javascript</em></span></p>
+  </noscript>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="jumbotron" style="text-align: center;">
+          <h1 class="display-4">Encrypt</h1>
+          <p><textarea id="inputEncrypt" cols="60" rows="8" onkeyup="update()" onchange="update()" autofocus></textarea></p>
+          <p class="arrow">↓</p>
+          <p><textarea id="outputEncrypt" cols="60" rows="8" readonly></textarea></p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="jumbotron" style="text-align: center;">
+          <h1 class="display-4">Decrypt</h1>
+          <p><textarea id="inputDecrypt" cols="60" rows="8" onkeyup="update()" onchange="update()" autofocus></textarea></p>
+          <p class="arrow">↓</p>
+          <p><textarea id="outputDecrypt" cols="60" rows="8" readonly></textarea></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="main.js"></script>
+
+
+</body>
+
+</html>

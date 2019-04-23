@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+
+.arrow {
+  font-size: 2.0em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1em;
+}
