@@ -8,3 +8,7 @@ body {
   margin: 0;
   margin-bottom: 1em;
 }
+
+.jumbotron {
+  padding: 32px;
+}

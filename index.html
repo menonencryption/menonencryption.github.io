@@ -11,7 +11,7 @@
 <body>
   <br>
   <h1 class="display-4">Menon</h1>
-  <p class="lead">a weaksauce encryption algorithm  by steven</p>
+  <p class="lead">a weaksauce encryption algorithm by steven</p>
   <hr>
   <noscript>
     <p><span class="warning"><em>enable yo javascript</em></span></p>
@@ -21,19 +21,45 @@
     <div class="row">
       <div class="col">
         <div class="jumbotron" style="text-align: center;">
-          <h1 class="display-4">Encrypt</h1>
-          <p><textarea id="inputEncrypt" cols="60" rows="8" onkeyup="update()" onchange="update()" autofocus></textarea></p>
+          <h2>Encrypt</h2>
+          <p><textarea id="inputEncrypt" cols="60" rows="6" onkeyup="update()" onchange="update()" autofocus></textarea></p>
           <p class="arrow">↓</p>
-          <p><textarea id="outputEncrypt" cols="60" rows="8" readonly></textarea></p>
+          <p><textarea id="outputEncrypt" cols="60" rows="6" readonly></textarea></p>
         </div>
       </div>
 
       <div class="col">
         <div class="jumbotron" style="text-align: center;">
-          <h1 class="display-4">Decrypt</h1>
-          <p><textarea id="inputDecrypt" cols="60" rows="8" onkeyup="update()" onchange="update()" autofocus></textarea></p>
+          <h2>Decrypt</h2>
+          <p><textarea id="inputDecrypt" cols="60" rows="6" onkeyup="update()" onchange="update()" autofocus></textarea></p>
           <p class="arrow">↓</p>
-          <p><textarea id="outputDecrypt" cols="60" rows="8" readonly></textarea></p>
+          <p><textarea id="outputDecrypt" cols="60" rows="6" readonly></textarea></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h2>Advanced Features</h2>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="jumbotron" style="text-align: center;">
+          <h2>Brute-force cipher</h2>
+          <p><textarea id="inputBruteForce" cols="60" rows="1" onkeyup="bruteForce()" onchange="bruteForce()" autofocus></textarea></p>
+          <p class="arrow">↓</p>
+
+          <div style="margin-bottom: 10px">
+            <a class="btn btn-outline-primary" href="javascript:prev()">Prev</a>
+            <a class="btn btn-outline-primary" href="javascript:next()">Next</a>
+          </div>
+
+          <p><textarea id="outputBruteForceLabel" cols="60" rows="1" readonly>ROT1 Not Inverted</textarea></p>
+          <p><textarea id="outputBruteForce" cols="60" rows="1" readonly></textarea></p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="jumbotron" style="text-align: center;">
+          <h2>Collected data</h2>
         </div>
       </div>
     </div>
