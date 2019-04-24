@@ -67,3 +67,10 @@ function prev() {
   bruteInvert = !bruteInvert;
   bruteForce();
 }
+
+function print() {
+  for(var i = 0; i < bruteReg.length; i++) {
+    console.log(bruteReg[i]);
+    console.log(bruteInv[i]);
+  }
+}
