@@ -69,8 +69,8 @@ function prev() {
 }
 
 function print() {
-  for(var i = 0; i < bruteReg.length; i++) {
-    console.log(bruteReg[i]);
-    console.log(bruteInv[i]);
+  for(var i = 0; i < brutedReg.length; i++) {
+    console.log(brutedReg[i]);
+    console.log(brutedInv[i]);
   }
 }
